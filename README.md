@@ -35,12 +35,6 @@ variational-autoencoder/
   - Latent space visualizations saved as PNG files.
   - Generated digit images saved as PNG files.
 
-#### Combined Visualization
-
-The following image illustrates the relationship between the latent space and the generated digits. The red box in the latent space plot corresponds to the area used for generating the digits shown on the right.
-
-![Combined Visualization](vae-mnist-demo/outputs/combined_visualization.png)
-
 ### 2. `basic_vae_demo.py`
 
 - **Framework**: PyTorch
@@ -48,7 +42,6 @@ The following image illustrates the relationship between the latent space and th
 - **Description**: This script implements a VAE to learn the latent space representation of a 2D dataset generated using the `make_moons` function. It creates an animated GIF showing the training process and the evolution of the latent space.
 - **Outputs**: 
   - An animated GIF of the training process saved in the `outputs` directory.
-    ![](basic-vae-demo/outputs/basic-vae-demo.gif)
 
 ## Installation
 
@@ -91,8 +84,13 @@ The script will create and save an animated GIF of the training process in the `
 
 ## Results
 
-- **MNIST Tensorflow VAE**: Visualizes the latent space of the MNIST dataset and generates new digit images.
+- **MNIST Tensorflow VAE**: The following image illustrates the relationship between the latent space and the generated digits. The red box in the latent space plot corresponds to the area used for generating the digits shown on the right.
+
+![Combined Visualization](vae-mnist-demo/outputs/combined_visualization.png)
+
 - **2D Moons PyTorch VAE**: Animates the training process of a VAE on a 2D dataset, showing the evolution of the latent space, and its attempt at reconstruction.
+
+![](basic-vae-demo/outputs/basic-vae-demo.gif)
 
 ## Conclusion
 
