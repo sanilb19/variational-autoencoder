@@ -7,15 +7,15 @@ This repository contains two scripts that demonstrate the implementation and fun
 ```
 generate2dImages/
 │
-├── vae_animation-1/
-│   ├── vae_amination-1.py
+├── vae-mnist-demo/
+│   ├── vae-mnist-demo.py
 │   └── outputs/
 │       ├── latent_space_epoch_{epoch}.png
 │       ├── final_latent_space.png
 │       └── generated_digits.png
 │
-├── animated-gif/
-│   ├── animated-gif.py
+├── basic-vae-demo/
+│   ├── basic-vae-demo.py
 │   └── outputs/
 │       └── vae_training.gif
 │
@@ -24,7 +24,7 @@ generate2dImages/
 
 ## Scripts Overview
 
-### 1. `vae_animation-1.py`
+### 1. `vae-mnist-demo.py`
 
 - **Framework**: TensorFlow
 - **Dataset**: MNIST
@@ -33,7 +33,7 @@ generate2dImages/
   - Latent space visualizations saved as PNG files.
   - Generated digit images saved as PNG files.
 
-### 2. `animated-gif.py`
+### 2. `basic-vae-demo.py`
 
 - **Framework**: PyTorch
 - **Dataset**: 2D Moons
@@ -58,24 +58,24 @@ pip install tensorflow torch matplotlib scikit-learn
 
 ## Usage
 
-### Running `vae_animation-1.py`
+### Running `vae-mnist-demo.py`
 
-Navigate to the `vae_animation-1` directory and run the script:
+Navigate to the `vae-mnist-demo` directory and run the script:
 
 ```bash
-cd vae_animation-1
-python vae_amination-1.py
+cd vae-mnist-demo
+python3 vae-mnist-demo.py
 ```
 
 The script will generate and save visualizations of the latent space and generated digits in the `outputs` directory.
 
-### Running `animated-gif.py`
+### Running `basic-vae-demo.py`
 
-Navigate to the `animated-gif` directory and run the script:
+Navigate to the `basic-vae-demo` directory and run the script:
 
 ```bash
-cd animated-gif
-python animated-gif.py
+cd basic-vae-demo
+python3 basic-vae-demo.py
 ```
 
 The script will create and save an animated GIF of the training process in the `outputs` directory.
