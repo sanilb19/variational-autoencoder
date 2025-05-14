@@ -1,6 +1,8 @@
 # Variational Autoencoders (VAE) Demonstration
 
-This repository contains two scripts that demonstrate the implementation and functionality of Variational Autoencoders (VAEs) using different frameworks and datasets. The purpose is to showcase a basic understanding of VAEs and their application in data generation.
+This repo contains two scripts demonstrating Variational Autoencoder (VAE) implementations using different datasets and frameworks. The goal? To build an intuitive, working understanding of VAEs, explore how data can be compressed into latent space, and see how that space can be used to generate new, realistic data.
+
+This is a foundational step in learning how generative AI models reason, compress, and create—because before diffusion models and LLMs, there was the good ol’ VAE: stable, elegant, and full of insight.
 
 ## Repository Structure
 
@@ -88,9 +90,9 @@ The script will create and save an animated GIF of the training process in the `
 
 ## Results
 
-- **TensorFlow VAE**: Visualizes the latent space of the MNIST dataset and generates new digit images.
-- **PyTorch VAE**: Animates the training process of a VAE on a 2D dataset, showing the evolution of the latent space.
+- **MNIST Tensorflow VAE**: Visualizes the latent space of the MNIST dataset and generates new digit images.
+- **2D Moons PyTorch VAE**: Animates the training process of a VAE on a 2D dataset, showing the evolution of the latent space.
 
 ## Conclusion
 
-This repository demonstrates a basic understanding of VAEs and their application in data generation using both TensorFlow and PyTorch. The scripts provide a foundation for further exploration and experimentation with VAEs. 
+This repository demonstrates a basic understanding of VAEs and their application in data generation using both TensorFlow and PyTorch. The scripts provide a foundation for further exploration and experimentation with VAEs and generative AI. 
