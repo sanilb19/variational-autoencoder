@@ -33,6 +33,12 @@ generate2dImages/
   - Latent space visualizations saved as PNG files.
   - Generated digit images saved as PNG files.
 
+#### Combined Visualization
+
+The following image illustrates the relationship between the latent space and the generated digits. The red box in the latent space plot corresponds to the area used for generating the digits shown on the right.
+
+![Combined Visualization](vae-mnist-demo/outputs/combined_visualization.png)
+
 ### 2. `basic-vae-demo.py`
 
 - **Framework**: PyTorch
