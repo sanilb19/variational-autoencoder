@@ -48,7 +48,7 @@ The following image illustrates the relationship between the latent space and th
 - **Description**: This script implements a VAE to learn the latent space representation of a 2D dataset generated using the `make_moons` function. It creates an animated GIF showing the training process and the evolution of the latent space.
 - **Outputs**: 
   - An animated GIF of the training process saved in the `outputs` directory.
-  - !(basic-vae-demo/outputs/basic-vae-demo.gif)
+    ![](basic-vae-demo/outputs/basic-vae-demo.gif)
 
 ## Installation
 
