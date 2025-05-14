@@ -123,7 +123,7 @@ class LatentSpaceVisualizer(tf.keras.callbacks.Callback):
         plt.ylabel("Latent Dimension 2")
         
         # Save plot to file
-        plt.savefig(f"vae_animation-1/outputs/latent_space_epoch_{epoch}.png")
+        plt.savefig(f"vae-mnist-demo/outputs/latent_space_epoch_{epoch}.png")
         plt.close()
 
 # Create the callback with a different name for the model parameter
@@ -149,8 +149,9 @@ plt.colorbar(scatter)
 plt.title("Latent Space after Training")
 plt.xlabel("Latent Dimension 1")
 plt.ylabel("Latent Dimension 2")
+plt.gca().add_patch(plt.Rectangle((-3, -3), 6, 6, fill=False, edgecolor='red', linewidth=2))
 plt.tight_layout()
-plt.savefig("vae_animation-1/outputs/final_latent_space.png")
+plt.savefig("vae-mnist-demo/outputs/final_latent_space.png")
 plt.show()
 
 # Generate digits from the latent space
@@ -183,5 +184,6 @@ plt.xlabel("z[0]")
 plt.ylabel("z[1]")
 plt.imshow(figure, cmap='Greys_r')
 plt.title("Digits generated from the latent space")
-plt.savefig("vae_animation-1/outputs/generated_digits.png")
+plt.gca().add_patch(plt.Rectangle((-3, -3), 6, 6, fill=False, edgecolor='red', linewidth=2))
+plt.savefig("vae-mnist-demo/outputs/generated_digits.png")
 plt.show()
