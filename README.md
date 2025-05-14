@@ -10,14 +10,14 @@ This is a foundational step in learning how generative AI models reason, compres
 variational-autoencoder/
 │
 ├── vae-mnist-demo/
-│   ├── vae-mnist-demo.py
+│   ├── vae_mnist_demo.py
 │   └── outputs/
 │       ├── latent_space_epoch_{epoch}.png
 │       ├── final_latent_space.png
 │       └── generated_digits.png
 │
 ├── basic-vae-demo/
-│   ├── basic-vae-demo.py
+│   ├── basic_vae_demo.py
 │   └── outputs/
 │       └── vae_training.gif
 │
@@ -26,7 +26,7 @@ variational-autoencoder/
 
 ## Scripts Overview
 
-### 1. `vae-mnist-demo.py`
+### 1. `vae_mnist_demo.py`
 
 - **Framework**: TensorFlow
 - **Dataset**: MNIST
@@ -41,7 +41,7 @@ The following image illustrates the relationship between the latent space and th
 
 ![Combined Visualization](vae-mnist-demo/outputs/combined_visualization.png)
 
-### 2. `basic-vae-demo.py`
+### 2. `basic_vae_demo.py`
 
 - **Framework**: PyTorch
 - **Dataset**: 2D Moons
@@ -66,7 +66,7 @@ pip install tensorflow torch matplotlib scikit-learn
 
 ## Usage
 
-### Running `vae-mnist-demo.py`
+### Running `vae_mnist_demo.py`
 
 Navigate to the `vae-mnist-demo` directory and run the script:
 
@@ -77,7 +77,7 @@ python3 vae-mnist-demo.py
 
 The script will generate and save visualizations of the latent space and generated digits in the `outputs` directory.
 
-### Running `basic-vae-demo.py`
+### Running `basic_vae_demo.py`
 
 Navigate to the `basic-vae-demo` directory and run the script:
 
