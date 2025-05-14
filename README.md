@@ -92,7 +92,7 @@ The script will create and save an animated GIF of the training process in the `
 ## Results
 
 - **MNIST Tensorflow VAE**: Visualizes the latent space of the MNIST dataset and generates new digit images.
-- **2D Moons PyTorch VAE**: Animates the training process of a VAE on a 2D dataset, showing the evolution of the latent space.
+- **2D Moons PyTorch VAE**: Animates the training process of a VAE on a 2D dataset, showing the evolution of the latent space, and its attempt at reconstruction.
 
 ## Conclusion
 
