@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader, TensorDataset
 # ===== User Settings =====
 time_limit_seconds = 10    # How long the animation should run
 frame_interval_ms = 200    # Delay between frames (milliseconds)
-save_path = "animated-gif/outputs/vae_training.gif"
+save_path = "basic_vae_demo/outputs/vae_training.gif"
 # ==========================
 
 # 1. Generate 2D data
