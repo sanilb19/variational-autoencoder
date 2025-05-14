@@ -7,7 +7,7 @@ This is a foundational step in learning how generative AI models reason, compres
 ## Repository Structure
 
 ```
-generate2dImages/
+variational-autoencoder/
 │
 ├── vae-mnist-demo/
 │   ├── vae-mnist-demo.py
